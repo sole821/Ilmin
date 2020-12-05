@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Noto+Sans+KR:wght@100;400;900&display=swap');
+
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+body { width: 100vw; height: 100vh;}
+
+A:link {text-decoration:none}
+a:hover {background-color: blueviolet; text-decoration:none}
+
+li {
+    list-style-type: none;
+  }
+
+
+#category {
+    vertical-align: middle;
+    width: 100vw; height: 100vh;
+    display: flex;
+    flex-direction: row;
+}
+
+
+#category h2 {
+    font-family: 'Archivo Black', sans-serif;
+    font-size: 3rem;
+}
+
+div {
+    flex: 1;
+    padding-top: 15%;
+    text-align: center;
+}
+div.left {
+    background-color: black;
+}
+
+div.right {
+    background-color: #ffffff;
+}
+
+div.right h2{
+    color:#000000;
+    background-color: white;
+    text-decoration-line: underline;
+
+}
+
+div.left h2{
+    color:#ffffff;
+    background-color: black;
+}
+
+div.right h2 a:hover {background-color: blueviolet; text-decoration:none}
+
+
+
+
+
