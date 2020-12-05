@@ -8,6 +8,9 @@
     background-color: black;
     color: white;
 }
+::-webkit-scrollbar { display:none;}
+body { width: 100vw; }
+.content-box {display: flex; flex-direction: row;}
 
 h2 {
     font-size: 40px;
@@ -29,9 +32,11 @@ li {
 }
 
 .header {
-    margin-top: 50px;
-    padding: 0 60px 0 80px;
-    position:relative
+    
+    padding-top: 3%;
+    width: 92%;
+    margin: 0 auto;
+    color: white;
 }
 
 #ex {
@@ -51,9 +56,6 @@ li {
     padding-top: 80px;
     padding-left: 80px;
     margin-bottom: 10px;
-    float: left; 
-    width: 500px; 
-    height: 1220px;
 }
 
 #contents div {
@@ -67,18 +69,16 @@ li {
 
 #map {
     float: left;
-    width: 850px; 
-    height: 1220px;
+    width: 850px;
     margin-bottom: 10px;
     padding-top: 80px;
     padding-left: 30px;
     text-align: center;
 }
 footer {
-    float: left;
-    width: 1350px;
-    height: 120px;
-    padding: 60px 60px 10px 80px;
+    padding: 3% 0;
+    width: 92%;
+    margin: 0 auto;
     color: white;
 }
 
